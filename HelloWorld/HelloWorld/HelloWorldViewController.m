@@ -44,6 +44,7 @@
         nameString = @"World";
     }
     NSString *greeting = [[NSString alloc] initWithFormat:@"Hello, %@!", nameString];
+    //Проверка git
     self.label.text = greeting;
 }
 
